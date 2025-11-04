@@ -9,6 +9,7 @@ This project implements a custom messaging and video communication application i
 - **Group Chat** – Messaging with multiple participants simultaneously.  
 - **Video File Uploads** – Send and receive video files using UDP for low-latency streaming.  
 - **Concurrent Communication** – Supports multiple clients communicating at the same time.
+- **Logging** – Records user actions and all messages in both private and group chats. 
 
 ## Installation
 
