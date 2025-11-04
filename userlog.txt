@@ -1,0 +1,1 @@
+Active user sequence number; timestamp; username; client IP address; client UDP server port number
