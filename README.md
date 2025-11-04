@@ -26,8 +26,13 @@ This project implements a custom messaging and video communication application i
     python3 Server.py localhost 12000
 
 3. open another terminal and Run the Client.py:
-> **Note:** You should open multiple terminals and run multiple instances of `Client.py` to simulate multiple users messaging simultaneously.
+    > **Note:** You should open multiple terminals and run multiple instances of `Client.py` to simulate multiple users messaging simultaneously.
 
     ```bash
     python3 client.py server_IP server_port client_udp_server_port
     python3 Client.py localhost 12000 6000
+
+4. follow the instruction in client terminal and login existing user from credentials.txt
+    > **Note:** each username and password will be on a separate line and that there will be one white space between the two
+
+5. Have fun :)
