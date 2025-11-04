@@ -30,4 +30,5 @@ This project implements a custom messaging and video communication application i
     python3 client.py server_IP server_port client_udp_server_port
     python3 Client.py localhost 12000 6000
 
-    > **Note:** You can open multiple terminals and run multiple instances of `Client.py` to simulate multiple users messaging simultaneously.
+> **Note:** You should open multiple terminals and run multiple instances of `Client.py` 
+to simulate multiple users messaging simultaneously.
