@@ -18,7 +18,7 @@ This project implements a custom messaging and video communication application i
    cd WhatsApp-Simulation
 
 2. Run the Server
-    Open a terminal and execute:
+    Open a terminal and Run the Server.py:
 
     ```bash
     python3 Server.py <server_IP> <server_port>
@@ -26,9 +26,8 @@ This project implements a custom messaging and video communication application i
     python3 Server.py localhost 12000
 
 3. open another terminal and Run the Client.py:
+> **Note:** You should open multiple terminals and run multiple instances of `Client.py` to simulate multiple users messaging simultaneously.
+
     ```bash
     python3 client.py server_IP server_port client_udp_server_port
     python3 Client.py localhost 12000 6000
-
-> **Note:** You should open multiple terminals and run multiple instances of `Client.py` 
-to simulate multiple users messaging simultaneously.
